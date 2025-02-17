@@ -1,13 +1,17 @@
-from pygame import Surface
+from pygame import K_w, K_a, K_s, K_d, Surface
+
+DIRECTION_KEYS = [K_w, K_a, K_s, K_d]
 
 # Game physics and measurements
 SNAKE_UNIT_WIDTH = 35
-SPEED = 5
+SPEED = 3
 SCREEN_BORDER_WIDTH = 10
+APPLE_RADIUS = 17
 
 # Colors
 GREEN = "green"
 DARK_GREEN = (0, 150, 0)
+RED = (255, 0, 0)
 
 
 # Enums
